@@ -1,1 +1,1 @@
-This is the Project Which Lists all of the nearest Information of Namma Mysuru
+This is the Project of web page Which Lists all of the nearest Information of Namma Mysuru
