@@ -329,7 +329,7 @@ text-align: center;
 {
 padding-left: 1200px;
 }
-#palace, #zoo, #regal, #pas {
+#palace, #zoo, #regal, #pas,#krs {
 	display: none;
 }
 .fimg {
@@ -451,4 +451,8 @@ padding-left: 1200px;
   color: black;
   padding: 40px;
   font-size: 20px;
+}
+.img
+{
+	float:left;
 }
