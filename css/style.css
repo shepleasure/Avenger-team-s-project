@@ -329,7 +329,9 @@ text-align: center;
 {
 padding-left: 1200px;
 }
-#palace, #zoo, #regal, #pas,#grs {
+
+#palace, #zoo, #regal, #pas,#grs, #drc, #b1 {
+
 	display: none;
 }
 .fimg {
@@ -449,6 +451,7 @@ padding-left: 1200px;
   color:white;
   background-color: rgba(247, 247, 246, 0.42);
   color: black;
-  padding: 40px;
+  padding: 42px;
   font-size: 20px;
 }
+
