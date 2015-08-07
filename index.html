@@ -196,12 +196,71 @@
 				<figcaption>
 					<h3>K.R.S Dam</h3>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>Lorem tttipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliquatt.</p>
 
-					<p><a href="#">Read More</a></p>
-				</figcaption>
+					<p><a href="#" data-target="krs">Read More</a></p>
+					</figcaption>
 			</figure>
+
+
+					<div id="krs">
+			<h1 id="sty" align ="center">KRISHNARAJA SAGAR</h1>
+			<img src="css/images/krs1.jpg">
+
+
+    
+    <div class= "content">
+      <p>
+        Brindavan gardens is located 12 Kms north-west of Mysore city and has rows-of colourful fountains. There is a boating pond to cross the dam from the south bank to the north bank and at the northern edge are the dancing fountains. Using advanced lighting techniques, the fountains are made to jump and dance to the tune of music. The dam is over 3 Kms long and is constructed at the junction of three rivers - Kaveri, Hemavati and Lakshmanathirtha. This site has been popularised over the years by the large number of Indian/foreign films shot at this location.
+        <br>
+        <br>
+        <br>
+        K.R. Sagar is located in a pivotal postion overlooking the entire gardens. The northern bank also houses a well established horicultural nursery providing good variety of fruit/flowering plants. At 6.30 PM the garden lights up with fountains shining to different coloured lights. The variety of flower beds glow in the light adding to the charm. This spectacular sight makes Brindavan gardens unique and it lasts till 8 PM every day (longer during week-ends).
+
+        K.R. Sagar dam is well connected to Mysore by road and rail (Arasikere line) There are many tourist buses going directly to Bangalore. This dam has not only served as a model to several dams in India, but is also a testimony to prove the superiority of surkhi (a mixture of brick powder and lime) over cement, in dam construction. The best season to visit KRS is June-July when the monsoon brings in plenty of water which gushes through the sluice gates which open automatically after the maximum head of 124 Feet is reached. 
+
+
+    </div>
+     <script type="text/javascript">
+    	jQuery(function($) { 
+
+        // settings
+        var $slider = $('.slider'); // class or id of carousel slider
+        var $slide = 'li'; // could also use 'img' if you're not using a ul
+        var $transition_time = 1000; // 1 second
+        var $time_between_slides = 4000; // 4 seconds
+
+        function slides(){
+          return $slider.find($slide);
+        }
+
+        slides().fadeOut();
+
+        // set active classes
+        slides().first().addClass('active');
+        slides().first().fadeIn($transition_time);
+
+        // auto scroll 
+        $interval = setInterval(
+          function(){
+            var $i = $slider.find($slide + '.active').index();
+
+            slides().eq($i).removeClass('active');
+            slides().eq($i).fadeOut($transition_time);
+
+            if (slides().length == $i + 1) $i = -1; // loop to start
+
+            slides().eq($i + 1).fadeIn($transition_time);
+            slides().eq($i + 1).addClass('active');
+          }
+          , $transition_time +  $time_between_slides 
+        );
+
+      });
+    </script>
+    </div>
+		
 
 			<figure class="types">
 			<img alt="GRS" src="css/images/grs.jpg">
@@ -424,14 +483,13 @@
 				</figcaption>
 			</figure>
 			<div id="pas">
-			<h1 id="sty" align ="center">  The hotel Regaalis </h1>
-			<div class="slider">
+			<h1 id="sty" align ="center">CAFE PASCUCCI</h1>
+			<ul class="slider">
       <li><img src="css/images/cp1.jpg"></li>
       <li><img src="css/images/cp2.jpg"></li>
       <li><img src="css/images/cp3.jpg"></li>
       <li><img src="css/images/cp4.jpg"></li>
-
-    </div>
+    </ul>
 
 
 
@@ -706,10 +764,11 @@
 		 	$('#zoo').hide()
 		 	$('#regal').hide()
 		 	$('#pas').hide()
-
+		 	$('#krs').hide()
 		 	$('#grs').hide()
 		 	$('#drc').hide()
 		 	$('#b1').hide()
+
 
 		 	//$('#'+id).width('100%')
 		 	//$('.my_nav').css('display','block')
