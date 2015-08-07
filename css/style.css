@@ -313,7 +313,7 @@ pre, #palace p, #zoo p
 font-size: 15px;
 background-color: rgba(247, 247, 246, 0.42);
 width: 800px;
-float: left;
+
 }
 .siz
 {
@@ -329,7 +329,12 @@ text-align: center;
 {
 padding-left: 1200px;
 }
+<<<<<<< HEAD
 #palace, #zoo, #regal, #pas,#krs {
+=======
+
+#palace, #zoo, #regal, #pas,#drc, #b1 {
+>>>>>>> development
 	display: none;
 }
 .fimg {
@@ -449,10 +454,13 @@ padding-left: 1200px;
   color:white;
   background-color: rgba(247, 247, 246, 0.42);
   color: black;
-  padding: 40px;
+  padding: 42px;
   font-size: 20px;
 }
+
 .img
 {
 	float:left;
 }
+
+
