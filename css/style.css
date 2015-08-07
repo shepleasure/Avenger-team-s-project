@@ -329,8 +329,17 @@ text-align: center;
 {
 padding-left: 1200px;
 }
+<<<<<<< HEAD
+#palace, #zoo, #regal, #pas,#krs {
+=======
 
+<<<<<<< HEAD
 #palace, #zoo, #regal, #pas,#drc, #b1 {
+>>>>>>> development
+=======
+#palace, #zoo, #regal, #pas,#grs, #drc, #b1 {
+
+>>>>>>> 39ebb90aa50aa8ffd6f1f41d0968840ea99857c5
 	display: none;
 }
 .fimg {
@@ -452,5 +461,10 @@ padding-left: 1200px;
   color: black;
   padding: 42px;
   font-size: 20px;
+}
+
+.img
+{
+	float:left;
 }
 
