@@ -330,7 +330,8 @@ text-align: center;
 padding-left: 1200px;
 }
 
-#palace, #zoo, #regal, #pas,#drc, #b1 {
+#palace, #zoo, #regal, #pas,#grs, #drc, #b1 {
+
 	display: none;
 }
 .fimg {
