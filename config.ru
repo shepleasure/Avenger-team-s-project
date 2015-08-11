@@ -22,7 +22,7 @@ map "/aboutus" do
       'Content-Type'  => 'text/html',
       'Cache-Control' => 'public, max-age=86400'
     },
-    File.open('public/aboutus', File::RDONLY)
+    File.open('public/aboutus.html', File::RDONLY)
   ]
 }
 end
