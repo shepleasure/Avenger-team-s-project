@@ -331,7 +331,7 @@ text-align: center;
 {
 padding-left: 1200px;
 }
-#palace, #zoo, #regal, #pas,#krs,#drc, #b1,#grs {
+#palace, #zoo, #regal, #pas,#krs,#drc, #b1,#grs,#f1,#scontact {
 
 	display: none;
 }
@@ -461,3 +461,15 @@ padding-left: 1200px;
 	float:left;
 }
 
+marquee img
+{
+	width: 500px;
+	height:300px;
+}
+#f1 p
+{
+	text-align: center;
+	color:white;
+	font-size: 20px;
+
+}

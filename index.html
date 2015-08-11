@@ -766,27 +766,62 @@
 					<img src="css/images/fit.png">
 			</a>
 			<div class="desc" id="fitness">
-				<h2>Fitness</h2>
+				<h2> Fitness</h2>
 			<p class="back"> << Back</p>	
 
 
 			<figure class="types">
-			<img alt="DRC" src="css/images/drc.jpg">
+			<img alt="Snap fitness" src="css/images/sflogo2.jpg">
 
 				<figcaption>
-					<h3>DRC</h3>
+					<h3>SNAP FITNESS</h3>
 
-					<p>Modern digital cinema for Indian and international blockbusters and a variety of concessions.</p>
+					<p>Modern equipped gym for all for 24/7 and a variety of facilities</p>
 
-					<p><a href="#" data-target = "">Read More</a></p>
+					<p><a href="#" data-target = "f1">Read More</a></p>
 				</figcaption>
 			</figure>
 
+
+			<div id="f1">
+			<h4 style="font-family:head;font-size:50px;text-align:center"> SNAP FITNESS </h4>
+			<a href="https://www.facebook.com"style="float:left"><img src="css/images/fb.png" width="30px" height="30px"> </a>
+			<a href="https://www.twitter.com" style="float:left"><img src="css/images/twitter.png" width="30px" height="30px"> </a>
+            
+           
+            <a href="#" id="sc" data-target="scontact" style="font-size:20px;margin-left:800px;color:black;" >Contact and details</a>
+
+   
+            <div id="snap_contact">
+
+			<marquee direction="left"><img src="css/images/sf.jpg"><img src="css/images/sfjog.jpeg"><img src="css/images/cardio.JPG"></marquee>
+            <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales nisl at posuere luctus. Mauris vel interdum ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In rhoncus tellus mi, nec consequat magna laoreet at. In a urna nisi. Nullam sit amet ullamcorper dolor. Aenean et finibus lorem. Aliquam efficitur, ipsum eu suscipit malesuada, est lacus consequat massa, non mollis dui ex nec dui. Sed placerat nulla et elit eleifend tristique</p>.
+
+	<p>Integer ultricies ligula sem, et elementum mi eleifend in. Aenean libero sapien, luctus in dapibus sit amet, finibus id tortor. Nunc sit amet purus ut mauris tempor aliquam id vel nulla. Cras porta velit magna, at fringilla augue pulvinar ut. Morbi et augue congue, pellentesque nunc eu, dapibus risus. Praesent in quam dignissim, ultrices enim vel, sollicitudin quam. Ut quis nisi a ipsum tincidunt sollicitudin imperdiet sit amet ligula. Proin pellentesque nisi odio, id lobortis orci accumsan sit amet.
+     </p>
+     </div>
+
+       <div id="scontact">
+
+       <p style="font-size:30px"> Stop saying "I wish" start saying "I will"</p>
+
+       <img src="css/images/maxresdefault.jpg" width="500" height="300" style="float:left">
+       <pre style="background-color:white;width:1200px;" >Snap Fitness
+        Gym
+        Address: Shop No. 1, C-A, 1st Floor,
+        Sigma Complex, New Kantharaj Urs Road,
+        Opp Apollo Hospital,, Kuvempunagar, Mysuru, Karnataka 570023
+        Phone:0821 419 4545
+        Hours: Open today · 5:00 am – 10:30 pm</pre>
+        </div>
+        </div>
+
 			<figure class="types">
-			<img alt="Sathyam" src="css/images/satyam.jpg">
+			<img alt="GOLD'S GYM" src="css/images/gglogo.jpg">
 
 				<figcaption>
-					<h3>Sathyam</h3>
+					<h3>GOLD'S GYM</h3>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 						eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -796,10 +831,11 @@
 			</figure>
 
 			<figure class="types">
-			<img alt="Gayatri" src="css/images/gayatri.jpg">
+			<img alt="FITNESS HELL" src="css/images/gg4.png">
 
 				<figcaption>
-					<h3>Gayatri</h3>
+			
+					<h3>FITNESS HELL</h3>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 						eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -808,6 +844,7 @@
 				</figcaption>
 			</figure>
 			</div>
+			
 			<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
 			<a href="#" class="tile"  data-target="banks_and_atm" id="tile8">
 					<h3>Banks and ATM</h3>
@@ -928,6 +965,10 @@
 		 	$('#grs').hide()
 		 	$('#drc').hide()
 		 	$('#b1').hide()
+            $('#f1').hide()
+            $('#scontact').hide()
+            
+
 
 		 	//$('#'+id).width('100%')
 		 	//$('.my_nav').css('display','block')
@@ -1085,7 +1126,16 @@
 						$(".social").css('display','none')
 			})
 			
-		
+	
+
+	</script>
+	<script type="text/javascript">
+		$("#sc").click(function(){
+			$('#snap_contact').hide()
+			$('#scontact').show()
+
+		})		
+
 
 	</script>
 </body>
