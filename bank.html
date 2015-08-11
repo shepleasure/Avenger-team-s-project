@@ -1,0 +1,71 @@
+<h3>BANK ATM</h3>
+
+					<p>Lorem tttipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliquatt.</p>
+
+					<p><a href="#" data-target="atm">Read More</a></p>
+					</figcaption>
+			</figure>
+
+					<div id="atm">
+			<h1 id="sty" align ="center">KRISHNARAJA SAGAR</h1>
+			<img src="css/images/sbi1.jpg">
+
+
+    
+    <div class= "content">
+      <p>
+        Today, our nationwide network of ATMs is the largest amongst private sector banks. All of them conveniently located, to ensure that your hard earned money is within your reach. And since progress is a way of life at  Bank, you can rest assured that we will constantly try and find more and more ways to partner you in your progress.
+        <br>
+        HSBC ATM
+        Kalidasa Road   Jayalakshmipuram, Mysore - 570012
+    
+        ICCI BANK ATM
+        Hootagalli  Near Infosys, Hebbal Indl Area, Mysore - 571186
+        <br>
+        SBM
+        Metagalli   Metagalli Industrial Area, Mysore - 570016
+        Brindavan Extension KRS Main Road,, Mysore - 570020
+        <br>
+        SBM ATM
+        Hinkal  Hebbal Indl Area, Mysore - 570017
+
+    </div>
+     <script type="text/javascript">
+    	jQuery(function($) { 
+
+        // settings
+        var $slider = $('.slider'); // class or id of carousel slider
+        var $slide = 'li'; // could also use 'img' if you're not using a ul
+        var $transition_time = 1000; // 1 second
+        var $time_between_slides = 4000; // 4 seconds
+
+        function slides(){
+          return $slider.find($slide);
+        }
+
+        slides().fadeOut();
+
+        // set active classes
+        slides().first().addClass('active');
+        slides().first().fadeIn($transition_time);
+
+        // auto scroll 
+        $interval = setInterval(
+          function(){
+            var $i = $slider.find($slide + '.active').index();
+
+            slides().eq($i).removeClass('active');
+            slides().eq($i).fadeOut($transition_time);
+
+            if (slides().length == $i + 1) $i = -1; // loop to start
+
+            slides().eq($i + 1).fadeIn($transition_time);
+            slides().eq($i + 1).addClass('active');
+          }
+          , $transition_time +  $time_between_slides 
+        );
+
+      });
+    </script>
+    </div>
