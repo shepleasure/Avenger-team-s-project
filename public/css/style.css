@@ -17,7 +17,7 @@
 body {
 	padding: 0px;
 	margin: 0px;
-	background-image: url("images/two.jpg");
+	background-image: url("../images/two.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
