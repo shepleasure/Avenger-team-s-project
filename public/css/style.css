@@ -165,8 +165,8 @@ footer {
 	border: 1px solid white;  	
 	margin-left: 5%;
 	margin-right: 5%; 
-	margin-top: 30%;
-	height:100px;
+	margin-top: 250px;
+	padding: 0px;
 }
 @-webkit-keyframes thumb {
 	0% { -webkit-transform: scale(1); }
@@ -292,6 +292,7 @@ figcaption a:hover {
 	margin-bottom: 20px;
 	letter-spacing: 10px;
 	color : black;
+	text-shadow : 2px 2px 4px #888;
 }
 .back {
 	display: none;
@@ -472,4 +473,8 @@ marquee img
 	color:white;
 	font-size: 20px;
 
+}
+#cs {
+	margin-left: 40%;
+	margin-top: 100px;
 }
