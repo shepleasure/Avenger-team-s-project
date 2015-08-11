@@ -331,11 +331,8 @@ text-align: center;
 {
 padding-left: 1200px;
 }
-
-
-#palace, #zoo, #regal, #pas,#krs,#drc, #b1,#grs,#f1,#atm,#scontact {
-
-
+#palace, #zoo, #regal, #pas,#krs,#drc, #b1,#grs,#f1,#atm,#scontact, #ambulance 
+{
 	display: none;
 }
 .fimg {
