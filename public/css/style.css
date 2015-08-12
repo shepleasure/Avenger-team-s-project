@@ -311,7 +311,7 @@ figcaption a:hover {
 	color: black;
 }
 
-pre, #palace p, #zoo p
+pre
 {
 font-size: 15px;
 background-color: rgba(247, 247, 246, 0.42);
@@ -332,7 +332,7 @@ text-align: center;
 {
 padding-left: 1200px;
 }
-#palace, #zoo, #regal, #pas,#krs,#drc, #b1,#grs,#f1,#atm,#scontact, #ambulance 
+#palace, #zoo, #regal, #pas,#krs,#drc, #b1,#grs,#f1,#atm,#scontact, #ambulance, #garden, #phil, #gg, #ci, #ri, #sathyam, #gayatri, #mom, #bm, #garuda, #gold, #hell, #blood, #hospital, #pharmacy, #railway, #fire
 {
 	display: none;
 }
@@ -343,7 +343,7 @@ padding-left: 1200px;
 }
 .para{
 
-	margin-left: 500px;
+	margin-left: 300px;
 	padding: 20px;
 	text-align: left;
 	color: white;
@@ -477,4 +477,108 @@ marquee img
 #cs {
 	margin-left: 40%;
 	margin-top: 100px;
+}
+
+.design {
+	margin:0px;padding:0px;
+	width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.design table{
+    border-collapse: collapse;
+    border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}
+.design tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.design table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.design table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.design tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}
+
+.design tr:nth-child(odd)
+{ 
+	background-color:#e5e5e5; 
+}
+.design tr:nth-child(even)    { 
+	background-color:#ffffff; 
+}
+.design td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:normal;
+	color: black;
+
+}.design tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.design tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.design tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.design tr:first-child td{
+		background:-o-linear-gradient(bottom, #4c4c4c 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4c4c4c), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #4c4c4c 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c4c4c", endColorstr="#000000");	background: -o-linear-gradient(top,#4c4c4c,000000);
+
+	background-color:#4c4c4c;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:18px;
+	font-family:Arial;
+	font-weight:bold;
+	color:black;
+}
+.design tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #4c4c4c 5%, #000000 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4c4c4c), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #4c4c4c 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c4c4c", endColorstr="#000000");	background: -o-linear-gradient(top,#4c4c4c,000000);
+
+	background-color:#4c4c4c;
+}
+.design tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.design tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
 }
